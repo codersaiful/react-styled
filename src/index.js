@@ -4,6 +4,8 @@ import './index.css';
 //import App from './App';
 import Layout from './Layout';
 import Example from './components/Example';
+import Form from './components/Form';
+
 
 import reportWebVitals from './reportWebVitals';
 
@@ -16,6 +18,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Form/>
     <Example/>
   </React.StrictMode>,
   document.getElementById('root')

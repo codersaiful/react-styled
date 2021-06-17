@@ -12,7 +12,7 @@ class Example extends Component{
         return(
             <div className="wrapper">
                 <h2>This is My React Site. 2nd time Testing.</h2>
-                <Button>Hello World</Button>
+                <Button className="button" label="Click Here"/>
             </div>
         );
     }
