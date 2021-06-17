@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import Layout from './Layout';
+import Example from './components/Example';
+
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
@@ -14,10 +16,15 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Layout/>
+    <Example/>
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
+
+const sampleFooter = <h1>This is Sample Header</h1>;
+ReactDOM.render(sampleFooter,document.getElementById('footer'));
 
 
 // If you want to start measuring performance in your app, pass a function
